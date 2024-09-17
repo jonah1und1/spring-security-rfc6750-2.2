@@ -1,0 +1,9 @@
+spring:
+  application.name: spring-webflux-sec-rfc6750-2_2
+  security:
+    oauth2:
+      resourceserver:
+        opaquetoken:
+          introspection-uri: http://localhost:8082/introspection
+          client-id: admin
+          client-secret: iamaplaceholder

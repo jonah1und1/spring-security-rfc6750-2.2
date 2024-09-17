@@ -1,0 +1,9 @@
+spring:
+  application.name: spring-security-mvc-rfc6750-2.2
+  security:
+    oauth2:
+      resourceserver:
+        opaquetoken:
+          introspection-uri: http://localhost:8082/introspection
+          client-id: admin
+          client-secret: iamaplaceholder
